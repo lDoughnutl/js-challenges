@@ -8,11 +8,16 @@ mocha 02_largestNumber.js
 
 Question: Why does the test pass for the third (last) test 
 with no changes to the function?
+
+Because 
 */
 
 function largestNumber(arr) {
     // Your code here
     // Google JS syntax ;)
+    arr.sort(function(min, max){return max-min});
+    return arr.find(isFinite)
+    
 }
 
 var assert = require('assert');
