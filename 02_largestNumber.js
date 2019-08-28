@@ -9,7 +9,9 @@ mocha 02_largestNumber.js
 Question: Why does the test pass for the third (last) test 
 with no changes to the function?
 
-Because 
+Because Because in JavaScript, null is not a “reference to a non-existing object” or a “null pointer” like in some other languages.
+It’s a special value which represents “nothing”, “empty” or “value unknown”. so when I use the .find method on an empty
+array js goes into the array and finds nothing so it reports the "null" value, because it's an empty value
 */
 
 function largestNumber(arr) {
