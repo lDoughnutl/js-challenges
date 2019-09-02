@@ -16,15 +16,6 @@
      `git push origin master`
 
 ## List of challenge branches
-<<<<<<< HEAD
-<<<<<<< HEAD
-01_jsIntro
-=======
-* 01_jsIntro
-* 02_largestNumber
->>>>>>> ffd0d96c83c493925f5b490a591c2542541f9e7c
-=======
 * 01_jsIntro
 * 02_largestNumber
 * 03_openDoor
->>>>>>> 112a5e824dc84d132403e06f1d5de8ecdc194a84
