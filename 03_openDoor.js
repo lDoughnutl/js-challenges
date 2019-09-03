@@ -20,6 +20,12 @@ npm test
 
 function openDoor(input) {
 	// Your code here
+	for (let i = 0; i< input.length; i++){
+		if (input[i].name === "Simon" && input[i].hasCoffee === true){
+			return true;
+		}
+	}
+	return false;
 }
 module.exports = {
 	openDoor
